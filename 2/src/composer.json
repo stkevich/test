@@ -1,0 +1,24 @@
+{
+    "name": "stkevich/component-name",
+    "type": "library",
+    "license": "MIT",
+    "description": "Some desc",
+    "keywords": ["key words"],
+    "authors": [
+        {
+            "name": "Stas Kevich",
+            "email": "st.kevich@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StKevich\\Component\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
